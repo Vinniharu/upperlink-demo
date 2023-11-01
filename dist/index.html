@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Upperlink</title>
+   <link rel="stylesheet" href="output.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+   <nav class="bg-white lg:flex items-center justify-between xl:pl-44 p-6 xl:py-8">
+      <div class="flex justify-between items-center">
+         <a href="#">
+            <img src="/img/logox.png" alt="logo" width="200px">
+         </a>
+         <ion-icon name="menu-outline" class="w-10 h-10 block lg:hidden border-4 rounded border-slate-300"
+            onclick="drop(this)"></ion-icon>
+      </div>
+      <div
+         class="bg-white left-0 capitalize w-full justify-between mt-6 lg:mt-0 lg:ml-6 md:ml-4 pt-4 lg:pt-0 lg:flex lg:items-center h-0 lg:h-auto overflow-hidden duration-500 ease-in-out text-right opacity-0 lg:opacity-100 "
+         id="drop">
+         <li
+            class="list-none lg:mr-9 mb-2 xl:mb-0 md:text-md lg:text-lg xl:text-xl hover:text-2xl duration-500 ease-in-out font-semibold text-blue-900 hover:text-red-900">
+            <a href="#">Payment</a>
+         </li>
+         <li
+            class="list-none lg:mr-9 mb-2 xl:mb-0 md:text-md lg:text-lg xl:text-xl hover:text-2xl duration-500 ease-in-out font-semibold text-blue-900 hover:text-red-900">
+            <a href="#">company</a>
+         </li>
+         <li
+            class="list-none lg:mr-9 mb-2 xl:mb-0 md:text-md lg:text-lg xl:text-xl hover:text-2xl duration-500 ease-in-out font-semibold text-blue-900 hover:text-red-900">
+            <a href="#">software</a>
+         </li>
+         <li
+            class="list-none lg:mr-9 mb-2 xl:mb-0 md:text-md lg:text-lg xl:text-xl hover:text-2xl duration-500 ease-in-out font-semibold text-blue-900 hover:text-red-900">
+            <a href="#">subsidiaries</a>
+         </li>
+         <li
+            class="list-none lg:mr-9 mb-2 xl:mb-0 md:text-md lg:text-lg xl:text-xl hover:text-2xl duration-500 ease-in-out font-semibold text-blue-900 hover:text-red-900">
+            <a href="#">support</a>
+         </li>
+         <li
+            class="list-none lg:mr-9 mb-2 xl:mb-0 md:text-md lg:text-lg xl:text-xl hover:text-2xl duration-500 ease-in-out font-semibold text-blue-900 hover:text-red-900">
+            <a href="#">developer</a>
+         </li>
+         <button class="bg-blue-700 w-32 h-12 rounded-md text-white mt-2">Sign In</button>
+      </div>
+   </nav>
+
+   <div class="bg-[url('https://upperlink.ng/assets/landing/landhome.png')] bg-cover bg-no-repeat ">
+      <div
+         class="flex flex-wrap items-start justify-between m-6 md:mx-auto xl:max-w-5xl lg:max-w-4xl md:max-w-2xl gap-x-16">
+         <div data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-mirror="true"
+         data-aos-once="true" class="md:flex-1">
+            <h1
+               class="text-transparent bg-clip-text w-fit font-bold text-5xl bg-gradient-to-r from-red-500 via-red-400 via-blue-400 to-blue-600 leading-tight lg:leading-normal">
+               All your
+               payment <br>
+               solutions in one place</h1>
+            <p class="leading-tight lg:leading-relaxed text-slate-600 text-2xl my-4">Grow your business efficiently with
+               our modern end-to-end Payment system that leaves nothing out.</p>
+
+            <div class="my-16 flex flex-row justify-start gap-x-20 md:gap-0 md:justify-between">
+               <a href="#" class="p-4 rounded-md bg-blue-700 text-white text-md hover:bg-blue-900">Create an Account</a>
+               <a href="#" class="p-4 rounded-md border-2 border-blue-800 text-md text-slate-600 hover:bg-blue-400 hover:text-white duration-700 ease-in-out">Contact sales</a>
+            </div>
+         </div>
+         <div class="md:flex-1 md:text-right">
+            <img src="/img/centralpay.png"
+               class="w-[24rem] h-auto hover:scale-105 hover:shadow-6xl duration-700 ease-in-out" alt="central pay">
+         </div>
+      </div>
+      <div class="flex gap-x-20 mx-6 my-24 md:mb-60 md:mt-36 md:mx-auto xl:max-w-5xl lg:max-w-4xl md:max-w-2xl mb-40">
+         <img src="/img/reward1.png" class="w-14 hover:scale-50 duration-700 ease-in-out">
+         <img src="/img/reward2.png" class="w-14 hover:scale-50 duration-700 ease-in-out">
+         <img src="/img/reward3.png" class="w-14 hover:scale-50 duration-700 ease-in-out">
+      </div>
+      <div class="bg-white">.</div>
+   </div>
+   <div class="my-20 mx-6 md:mx-auto max-w-5xl">
+      <div class="text-center max-w-6xl lg:mx-auto lg:max-w-none">
+         <h1 class="text-xl sm:text-3xl my-4 sm:my-6 text-slate-700 font-bold">Grow your business with our tools</h1>
+         <p class="text-sm sm:text-lg text-slate-600 font-semibold">Experience growth in your business with several new age technology driven
+            solutions we provide to help improve
+            your
+            business for better productivity</p>
+      </div>
+   </div>
+   
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script src="script.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
