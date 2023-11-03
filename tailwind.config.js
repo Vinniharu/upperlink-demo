@@ -26,6 +26,7 @@ module.exports = {
       backgroundImage: {
         top: "url('/img/utilbottom.d490a4037da8eff6.png')",
         bottom: "url('/img/yearsofxp.fe77aac6970c019c.png')",
+        ready: "url('img/ready.ec163209cce61ff7.png')",
       },
     },
   },
