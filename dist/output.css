@@ -538,6 +538,10 @@ video {
   position: static;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -568,6 +572,14 @@ video {
 
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-56 {
+  margin: 14rem;
 }
 
 .mx-2 {
@@ -676,6 +688,38 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-\[-20\] {
+  margin-top: -20;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-\[15rem\] {
+  margin-bottom: 15rem;
+}
+
+.mb-52 {
+  margin-bottom: 13rem;
+}
+
+.mb-56 {
+  margin-bottom: 14rem;
+}
+
+.mt-\[15rem\] {
+  margin-top: 15rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-56 {
+  margin-top: 14rem;
+}
+
 .block {
   display: block;
 }
@@ -704,12 +748,20 @@ video {
   height: 20rem;
 }
 
+.h-\[31rem\] {
+  height: 31rem;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
+}
+
+.h-\[56rem\] {
+  height: 56rem;
 }
 
 .w-10 {
@@ -769,6 +821,14 @@ video {
   max-width: 24rem;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-none {
   flex: none;
 }
@@ -801,23 +861,23 @@ video {
 
 @keyframes util2 {
   0% {
-    transform: translateX(0);
+    transform: translateX(10rem);
   }
 
   30% {
-    transform: translateX(13rem);
+    transform: translateX(30rem);
   }
 
   50% {
-    transform: translateY(13rem) translateX(10rem);
+    transform: translateY(-10rem) translateX(30rem);
   }
 
   80% {
-    transform: translateX(4rem) translateY(12rem);
+    transform: translateX(10rem) translateY(-10rem);
   }
 
   100% {
-    transform: translateX(0);
+    transform: translateX(10rem);
   }
 }
 
@@ -836,6 +896,10 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -952,8 +1016,9 @@ video {
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
+.bg-\[\#231a36\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 26 54 / var(--tw-bg-opacity));
 }
 
 .bg-blue-200 {
@@ -971,11 +1036,6 @@ video {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
-.bg-indigo-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 27 75 / var(--tw-bg-opacity));
-}
-
 .bg-slate-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
@@ -990,20 +1050,25 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#231\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 51 17 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/upperlink\.ng\/assets\/landing\/landhome\.png\'\)\] {
   background-image: url('https://upperlink.ng/assets/landing/landhome.png');
 }
 
-.bg-\[url\(\'https\:\/\/upperlink\.ng\/utilbottom\.d490a4037da8eff6\.png\'\)\] {
-  background-image: url('https://upperlink.ng/utilbottom.d490a4037da8eff6.png');
+.bg-bottom {
+  background-image: url('/img/yearsofxp.fe77aac6970c019c.png');
 }
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-bottom {
-  background-image: url('/img/yearsofxp.fe77aac6970c019c.png');
 }
 
 .bg-top {
@@ -1099,12 +1164,29 @@ video {
   padding-bottom: 4rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pl-6 {
   padding-left: 1.5rem;
 }
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pt-56 {
+  padding-top: 14rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-center {
@@ -1226,6 +1308,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1531,6 +1618,14 @@ video {
     padding-top: 6rem;
   }
 
+  .md\:pt-56 {
+    padding-top: 14rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
   .md\:text-right {
     text-align: right;
   }
@@ -1609,6 +1704,10 @@ video {
 
   .lg\:max-w-none {
     max-width: none;
+  }
+
+  .lg\:max-w-2xl {
+    max-width: 42rem;
   }
 
   .lg\:items-center {
