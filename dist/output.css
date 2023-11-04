@@ -1060,6 +1060,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[ur\] {
+  background-color: ur;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
 .bg-\[url\(\'https\:\/\/upperlink\.ng\/assets\/landing\/landhome\.png\'\)\] {
   background-image: url('https://upperlink.ng/assets/landing/landhome.png');
 }
@@ -1070,6 +1082,18 @@ video {
 
 .bg-top {
   background-image: url('/img/utilbottom.d490a4037da8eff6.png');
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/upperlink\.ng\/utilbottom\.d490a4037da8eff6\.png\'\)\] {
+  background-image: url('https://upperlink.ng/utilbottom.d490a4037da8eff6.png');
 }
 
 .from-red-500 {
